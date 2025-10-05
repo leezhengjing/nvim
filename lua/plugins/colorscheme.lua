@@ -1,13 +1,29 @@
 return {
+	-- {
+	-- 	"sainnhe/sonokai",
+	-- 	lazy = false,
+	-- 	priority = 1000,
+	-- 	config = function()
+	-- 		vim.g.sonokai_enable_italic = true
+	-- 		vim.cmd.colorscheme("sonokai")
+	-- 	end,
+	-- },
+	-- {
+	-- 	"EdenEast/nightfox.nvim",
+	-- 	lazy = false,
+	-- 	priority = 1000,
+	-- 	config = function()
+	-- 		vim.g.nightfox_enable_italic = true
+	-- 		vim.cmd.colorscheme("terafox")
+	-- 	end,
+	-- },
 	{
-		"sainnhe/sonokai",
-		lazy = false,
+		"ellisonleao/gruvbox.nvim",
 		priority = 1000,
 		config = function()
-			-- Optionally configure and load the colorscheme
-			-- directly inside the plugin declaration.
-			vim.g.sonokai_enable_italic = true
-			vim.cmd.colorscheme("sonokai")
+			-- vim.o.background = "light"
+			vim.o.background = "dark"
+			vim.cmd.colorscheme("gruvbox")
 		end,
 	},
 }
