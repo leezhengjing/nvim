@@ -7,7 +7,7 @@ vim.o.relativenumber = true
 
 vim.o.tabstop = 4
 vim.o.softtabstop = 4
-vim.o.shiftwidth = 4 
+vim.o.shiftwidth = 4
 vim.o.expandtab = true
 
 vim.o.smartindent = true
@@ -37,6 +37,7 @@ vim.o.smartcase = true
 vim.o.showmode = false
 vim.o.timeoutlen = 300
 
+vim.o.foldmethod = "manual"
 -- Basic clipboard interaction
-vim.keymap.set({'n', 'x'}, 'gy', '"+y', {desc = 'Copy to clipboard'})
-vim.keymap.set({'n', 'x'}, 'gp', '"+p', {desc = 'Paste clipboard content'})
+vim.keymap.set({ "n", "x" }, "gy", '"+y', { desc = "Copy to clipboard" })
+vim.keymap.set({ "n", "x" }, "gp", '"+p', { desc = "Paste clipboard content" })

@@ -5,6 +5,9 @@ return {
 		lazy = false,
 		build = ":TSUpdate",
 		opts = {
+			folds = {
+				enable = true,
+			},
 			ensure_installed = {
 				"javascript",
 				"typescript",
@@ -13,6 +16,7 @@ return {
 				"graphq",
 				"http",
 				"json",
+				"python",
 				"sql",
 				"vim",
 				"lua",
@@ -23,6 +27,7 @@ return {
 				"rust",
 				"go",
 				"ocaml",
+				"html",
 			},
 		},
 	},
